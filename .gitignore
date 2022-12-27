@@ -1,5 +1,8 @@
 *.zip
 *.bin
-.ipynb_checkpoints
-.DS_Store
-ExperimentalResults
+Output/*.csv
+Final Training
+Scripts/__pycache__/
+Dataset/*.*
+Models/*.csv
+Paper\ Figures/
