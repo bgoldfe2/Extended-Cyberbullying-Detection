@@ -159,6 +159,9 @@ def generate_dataset(df):
         return DatasetDistilBert(text=df.text.values, target=df.target.values)
 
 def set_model():
+    # BHG debug
+    print("The model in the args is ", args.pretrained_model)
+    
     if(args.pretrained_model == "bert-base-uncased"):
         return BertFGBC()
     elif(args.pretrained_model == "gpt2"):
